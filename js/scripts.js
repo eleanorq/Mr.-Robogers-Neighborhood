@@ -1,13 +1,17 @@
 
+//Business Logic
 
-function beepBoop(num) {
-    const numInput = parseInt(num);
+function beepBoop(number) {
+    const numInput = parseInt(number);
     const emptyArray = [];
-    for (let index = 1; index <= num; index++);
+    for (let i = 1; i <= numInput; i++) {
+        emptyArray.push(i);
 }
-return emptyArray("123");
+return emptyArray;
+}
 
 
+beepBoop("12");
 
 
 console.log(index);

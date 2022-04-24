@@ -1,8 +1,12 @@
 //Tests
 Describe: beepBoop()
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
+Test: It should return an array of numbers from 0 to the user's inputted number.
 Code: beepBoop(5)
 Expected Output: [0,1,2,3,4,5]
 
-Test: "It should..."
+Test: It should return an array of numbers from 0 to user's inputted number, but for every number containing the number 1, "Beep!" will be returned in it's place.
+Code: beepBoop(12)
+Expected Output: [0, "Beep"!, 2, 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!"]
+
+
